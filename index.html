@@ -1,33 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>FINEMARKS COMMUNICATION HUB</title>
-	
-	<link rel="stylesheet" href="css/bootstrap.min.css"/>
-	<link rel="stylesheet" href="css/font-awesome.min.css"/>
-	<link rel="stylesheet" href="css/themify-icons.css"/>
-	<link rel="stylesheet" href="css/magnific-popup.css"/>
-	<link rel="stylesheet" href="css/animate.css"/>
-	<link rel="stylesheet" href="css/owl.carousel.css"/>
-	<link rel="stylesheet" href="css/style.css"/>
-	<link href="img/finallogofine.png" rel="shortcut icon"/>
+
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/font-awesome.min.css" />
+	<link rel="stylesheet" href="css/themify-icons.css" />
+	<link rel="stylesheet" href="css/magnific-popup.css" />
+	<link rel="stylesheet" href="css/animate.css" />
+	<link rel="stylesheet" href="css/owl.carousel.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<link href="img/finallogofine.png" rel="shortcut icon" />
 	<link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,500,500i,700,700i" rel="stylesheet">
 
 </head>
+
 <body>
-    <!-- Page Preloder -->
+	<!-- Page Preloder -->
 	<div id="preloder">
 		<div class="loader"></div>
 	</div>
+<!-- this is the header section and navbar section-->
+<style>
+#navbar {
+  overflow: hidden;
+  z-index: 7;
+}
 
-	<!-- header section -->
-	<header class="header-section">
+.sticky {
+  position: fixed;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+<header class="header-section">
 		<div class="container">
-			<!-- logo -->
-			<a href="index.html" class="site-logo"><img src="img/finallogofine.png" width="90px" height="100px" class="my-3" alt=""> <h5 style="color: rgb(15, 8, 114); font-weight: bolder;">FINEMARKS COMMUNICATION HUB</h5></a>
+			
+			<a href="index.html" class="site-logo"><img src="img/finallogofine.png" width="90px" height="100px"
+					class="my-3" alt="">
+				<h5 style="color: rgb(15, 8, 114); font-weight: bolder;">FINEMARKS COMMUNICATION HUB</h5>
+			</a>
 			<div class="nav-switch">
 				<i class="fa fa-bars"></i>
 			</div>
@@ -43,27 +61,39 @@
 			</div>
 		</div>
 	</header>
-	<!-- header section end-->
+</div>
+
+<div id="navbar">
+		<nav class="nav-section" >
+	<div class="container">
+		<ul class="main-menu">
+			<li class="active"><a href="index.html">Home</a></li>
+			<li><a href="about.html">About Us</a></li>
+			<li><a href="event.html">Event</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</div>
+</nav>
+</div>
 
 
-	<!-- Header section  -->
-	<nav class="nav-section">
-		<div class="container">
-			<div class="nav-right">
-				<a href=""><i class="fa fa-search"></i></a>
-				<!-- <a href=""><i class="fa fa-shopping-cart"></i></a> -->
-			</div>
-			<ul class="main-menu">
-				<li class="active"><a href="index.html">Home</a></li>
-				<li><a href="about.html">About Us</a></li>
-				<li><a href="event.html">Event</a></li>
-				<!-- <li><a href="course.html">COURSES</a></li> -->
-				<!-- <li><a href="blog.html">blog</a></li> -->
-				<li><a href="contact.html">Contact</a></li>
-			</ul>
-		</div>
-	</nav>
-	<!-- Header section end -->
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+<!-- the ende of header and navbar section -->
+
 
 
 	<!-- Hero section -->
@@ -76,8 +106,12 @@
 							<div class="col-lg-8">
 								<div class="hs-subtitle">Award Winning HUB</div>
 								<h2 class="hs-title">An investment in knowledge pays the best interest.</h2>
-								<p class="hs-des">Education is not just about going to school and getting a degree. It's about widening your<br> knowledge and absorbing the truth about life. Knowledge is power.</p>
-								<a href="about.html"><div class="site-btn">GET STARTED</div></a>
+								<p class="hs-des">Education is not just about going to school and getting a degree. It's
+									about widening your<br> knowledge and absorbing the truth about life. Knowledge is
+									power.</p>
+								<a href="about.html">
+									<div class="site-btn">GET STARTED</div>
+								</a>
 							</div>
 						</div>
 					</div>
@@ -90,8 +124,12 @@
 							<div class="col-lg-8">
 								<div class="hs-subtitle">Award Winning HUB</div>
 								<h2 class="hs-title">An investment in knowledge pays the best interest.</h2>
-								<p class="hs-des">Education is not just about going to school and getting a degree. It's about widening your<br> knowledge and absorbing the truth about life. Knowledge is power.</p>
-								<a href="about.html"><div class="site-btn">GET STARTED</div></a>
+								<p class="hs-des">Education is not just about going to school and getting a degree. It's
+									about widening your<br> knowledge and absorbing the truth about life. Knowledge is
+									power.</p>
+								<a href="about.html">
+									<div class="site-btn">GET STARTED</div>
+								</a>
 							</div>
 						</div>
 					</div>
@@ -115,7 +153,7 @@
 					</div>
 				</div>
 				<div class="col-lg-5 col-md-6">
-					
+
 				</div>
 			</div>
 		</div>
@@ -146,7 +184,8 @@
 					</div>
 					<div class="service-content">
 						<h4>Great Facility</h4>
-						<p>The companies is well equiped with facilities that will give you world class designs and the best when it comes to ICT.</p>
+						<p>The companies is well equiped with facilities that will give you world class designs and the
+							best when it comes to ICT.</p>
 					</div>
 				</div>
 				<div class="col-lg-4 col-sm-6 service-item">
@@ -155,7 +194,8 @@
 					</div>
 					<div class="service-content">
 						<h4>Activity Hub</h4>
-						<p>The Activity hub is a channel where students learn alot about programming languages and other things involved in programming.</p>
+						<p>The Activity hub is a channel where students learn alot about programming languages and other
+							things involved in programming.</p>
 					</div>
 				</div>
 				<div class="col-lg-4 col-sm-6 service-item">
@@ -164,7 +204,8 @@
 					</div>
 					<div class="service-content">
 						<h4>Fully Qualified</h4>
-						<p>The hub is fully qualified to render services to students who are willing to learn programming.</p>
+						<p>The hub is fully qualified to render services to students who are willing to learn
+							programming.</p>
 					</div>
 				</div>
 				<div class="col-lg-4 col-sm-6 service-item">
@@ -214,7 +255,8 @@
 						<div class="enroll-list-item">
 							<span>3</span>
 							<h5>Register</h5>
-							<p>Come to the Hub and register for the best hand when it comes to web-development and programming.</p>
+							<p>Come to the Hub and register for the best hand when it comes to web-development and
+								programming.</p>
 						</div>
 					</div>
 				</div>
@@ -297,7 +339,7 @@
 					</div>
 					<div class="course-info">
 						<div class="date"><i class="fa fa-clock-o"></i> 01 Sep 2019</div>
-						<h4>Web Developer Bootcamp<br>Make web  applications</h4>
+						<h4>Web Developer Bootcamp<br>Make web applications</h4>
 					</div>
 				</div>
 				<!-- course item -->
@@ -370,7 +412,7 @@
 		<div class="container">
 			<div class="section-title text-center">
 				<h3>OUR EVENTS</h3>
-				<p>Our department  initiated a series of events</p>
+				<p>Our department initiated a series of events</p>
 			</div>
 			<div class="row">
 				<div class="col-md-6 event-item">
@@ -382,7 +424,8 @@
 					</div>
 					<div class="event-info">
 						<h4>The dos and don'ts of writing a personal<br>statement for languages</h4>
-						<p><i class="fa fa-calendar-o"></i> 08:00 AM - 10:00 AM <i class="fa fa-map-marker"></i> Center Building, Block A</p>
+						<p><i class="fa fa-calendar-o"></i> 08:00 AM - 10:00 AM <i class="fa fa-map-marker"></i> Center
+							Building, Block A</p>
 						<a href="" class="event-readmore">REGISTER <i class="fa fa-angle-double-right"></i></a>
 					</div>
 				</div>
@@ -395,7 +438,8 @@
 					</div>
 					<div class="event-info">
 						<h4>Hub interview tips:<br>Confidence won't make up for flannel</h4>
-						<p><i class="fa fa-calendar-o"></i> 08:00 AM - 10:00 AM <i class="fa fa-map-marker"></i> Center Building, Block A</p>
+						<p><i class="fa fa-calendar-o"></i> 08:00 AM - 10:00 AM <i class="fa fa-map-marker"></i> Center
+							Building, Block A</p>
 						<a href="" class="event-readmore">REGISTER <i class="fa fa-angle-double-right"></i></a>
 					</div>
 				</div>
@@ -406,7 +450,9 @@
 
 
 	<!-- Gallery section -->
-	<div class="container"><h3 class="text-center text-bolder pb-5">GALLARY</h3></div>
+	<div class="container">
+		<h3 class="text-center text-bolder pb-5">GALLARY</h3>
+	</div>
 	<div class="gallery-section">
 		<div class="gallery">
 			<div class="grid-sizer"></div>
@@ -456,7 +502,8 @@
 								<span><i class="fa fa-calendar-o"></i> 04 Sep 2019</span>
 								<span><i class="fa fa-user"></i> Adrian Roca</span>
 							</div>
-							<p>Integer luctus diam ac scerisque consectetur. Vimus dot euismod neganeco lacus sit amet. Aenean interdus mid vitae sed accumsan...</p>
+							<p>Integer luctus diam ac scerisque consectetur. Vimus dot euismod neganeco lacus sit amet.
+								Aenean interdus mid vitae sed accumsan...</p>
 						</div>
 					</div>
 				</div>
@@ -469,7 +516,8 @@
 								<span><i class="fa fa-calendar-o"></i> 13 Sep 2019</span>
 								<span><i class="fa fa-user"></i> Adrian Roca</span>
 							</div>
-							<p>Integer luctus diam ac scerisque consectetur. Vimus dot euismod neganeco lacus sit amet. Aenean interdus mid vitae sed accumsan...</p>
+							<p>Integer luctus diam ac scerisque consectetur. Vimus dot euismod neganeco lacus sit amet.
+								Aenean interdus mid vitae sed accumsan...</p>
 						</div>
 					</div>
 				</div>
@@ -482,7 +530,8 @@
 								<span><i class="fa fa-calendar-o"></i> 04 Sep 2019</span>
 								<span><i class="fa fa-user"></i> Adrian Roca</span>
 							</div>
-							<p>Integer luctus diam ac scerisque consectetur. Vimus dot euismod neganeco lacus sit amet. Aenean interdus mid vitae sed accumsan...</p>
+							<p>Integer luctus diam ac scerisque consectetur. Vimus dot euismod neganeco lacus sit amet.
+								Aenean interdus mid vitae sed accumsan...</p>
 						</div>
 					</div>
 				</div>
@@ -495,7 +544,8 @@
 								<span><i class="fa fa-calendar-o"></i> 13 Sep 2019</span>
 								<span><i class="fa fa-user"></i> Adrian Roca</span>
 							</div>
-							<p>Integer luctus diam ac scerisque consectetur. Vimus dot euismod neganeco lacus sit amet. Aenean interdus mid vitae sed accumsan...</p>
+							<p>Integer luctus diam ac scerisque consectetur. Vimus dot euismod neganeco lacus sit amet.
+								Aenean interdus mid vitae sed accumsan...</p>
 						</div>
 					</div>
 				</div>
@@ -511,9 +561,9 @@
 			<div class="row">
 				<div class="col-md-5 col-lg-7">
 					<div class="section-title mb-md-0">
-					<h3>NEWSLETTER</h3>
-					<p>Subscribe and get the latest news and useful tips, advice and best offer.</p>
-				</div>
+						<h3>NEWSLETTER</h3>
+						<p>Subscribe and get the latest news and useful tips, advice and best offer.</p>
+					</div>
 				</div>
 				<div class="col-md-7 col-lg-5">
 					<form class="newsletter">
@@ -535,7 +585,8 @@
 				<div class="col-sm-6 col-lg-3 footer-widget">
 					<div class="about-widget">
 						<img src="" alt="">
-						<p>This platform is provided for the benefit of everyone who is interested in web development and tech.</p>
+						<p>This platform is provided for the benefit of everyone who is interested in web development
+							and tech.</p>
 						<div class="social pt-1">
 							<a href="www.twitter.com"><i class="fa fa-twitter-square"></i></a>
 							<a href="www.facebook.com"><i class="fa fa-facebook-square"></i></a>
@@ -584,10 +635,18 @@
 				<div class="col-sm-6 col-lg-3 footer-widget">
 					<h6 class="fw-title">CONTACT</h6>
 					<ul class="contact">
-						<li><p><i class="fa fa-map-marker"></i> IKOT-EKPENE,AKWA-IBOM</p></li>
-						<li><p><i class="fa fa-phone"></i>(+234)909-690-6695,(+234)802-314-4279</p></li>
-						<li><p><i class="fa fa-envelope"></i> finemarkscommunication@gmail.com</p></li>
-						<li><p><i class="fa fa-clock-o"></i> Monday - Friday, 08:00AM - 06:00 PM</p></li>
+						<li>
+							<p><i class="fa fa-map-marker"></i> IKOT-EKPENE,AKWA-IBOM</p>
+						</li>
+						<li>
+							<p><i class="fa fa-phone"></i>(+234)909-690-6695,(+234)802-314-4279</p>
+						</li>
+						<li>
+							<p><i class="fa fa-envelope"></i> finemarkscommunication@gmail.com</p>
+						</li>
+						<li>
+							<p><i class="fa fa-clock-o"></i> Monday - Friday, 08:00AM - 06:00 PM</p>
+						</li>
 					</ul>
 				</div>
 			</div>
@@ -595,8 +654,10 @@
 		<!-- copyright -->
 		<div class="copyright">
 			<div class="container">
-				<p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | by <a href="#" target="_blank">Finemarks-communication</a></p>
-			</div>		
+				<p>Copyright &copy;
+					<script>document.write(new Date().getFullYear());</script> All rights reserved | by <a href="#"
+						target="_blank">Finemarks-communication</a></p>
+			</div>
 		</div>
 	</footer>
 	<!-- Footer section end-->
@@ -610,4 +671,5 @@
 	<script src="js/magnific-popup.min.js"></script>
 	<script src="js/main.js"></script>
 </body>
+
 </html>

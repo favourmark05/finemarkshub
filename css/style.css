@@ -1883,3 +1883,8 @@ ol {
 		padding-left: 0;
 	}
 }
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}

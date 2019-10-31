@@ -23,44 +23,76 @@
 		<div class="loader"></div>
 	</div>
 
-	<!-- header section -->
-	<header class="header-section">
-		<div class="container">
-			<!-- logo -->
-			<a href="index.html" class="site-logo"><img src="img/finallogofine.png" width="90px" height="100px" class="my-3" alt=""> <h5 style="color: rgb(15, 8, 114); font-weight: bolder;">FINEMARKS COMMUNICATION HUB</h5></a>
-			<div class="nav-switch">
-				<i class="fa fa-bars"></i>
-			</div>
-			<div class="header-info">
-				<div class="hf-item">
-					<i class="fa fa-clock-o"></i>
-					<p><span>Working time:</span>Monday - Friday: 08 AM - 06 PM</p>
+	<!-- this is the header section and navbar section-->
+<style>
+		#navbar {
+		  overflow: hidden;
+		  z-index: 7;
+		}
+		
+		.sticky {
+		  position: fixed;
+		}
+		</style>
+		</head>
+		<body>
+		
+		<div class="header">
+		<header class="header-section">
+				<div class="container">
+					
+					<a href="index.html" class="site-logo"><img src="img/finallogofine.png" width="90px" height="100px"
+							class="my-3" alt="">
+						<h5 style="color: rgb(15, 8, 114); font-weight: bolder;">FINEMARKS COMMUNICATION HUB</h5>
+					</a>
+					<div class="nav-switch">
+						<i class="fa fa-bars"></i>
+					</div>
+					<div class="header-info">
+						<div class="hf-item">
+							<i class="fa fa-clock-o"></i>
+							<p><span>Working time:</span>Monday - Friday: 08 AM - 06 PM</p>
+						</div>
+						<div class="hf-item">
+							<i class="fa fa-map-marker"></i>
+							<p><span>Find us:</span>IKOT-EKPENE, AKWA-IBOM STATE</p>
+						</div>
+					</div>
 				</div>
-				<div class="hf-item">
-					<i class="fa fa-map-marker"></i>
-					<p><span>Find us:</span>IKOT-EKPENE, AKWA-IBOM STATE</p>
-				</div>
-			</div>
+			</header>
 		</div>
-	</header>
-	<!-- header section end-->
-
-
-	<!-- Header section  -->
-	<nav class="nav-section">
-		<div class="container">
-			<div class="nav-right">
-				<a href=""><i class="fa fa-search"></i></a>
+		
+		<div id="navbar">
+				<nav class="nav-section" >
+			<div class="container">
+				
+				<ul class="main-menu">
+					<li class="active"><a href="index.html">Home</a></li>
+					<li><a href="about.html">About Us</a></li>
+					<li><a href="event.html">Event</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
 			</div>
-			<ul class="main-menu">
-				<li class="active"><a href="index.html">Home</a></li>
-				<li><a href="about.html">About Us</a></li>
-				<li><a href="event.html">Event</a></li>
-				<li><a href="contact.html">Contact</a></li>
-			</ul>
+		</nav>
 		</div>
-	</nav>
-	<!-- Header section end -->
+		
+		
+		<script>
+		window.onscroll = function() {myFunction()};
+		
+		var navbar = document.getElementById("navbar");
+		var sticky = navbar.offsetTop;
+		
+		function myFunction() {
+		  if (window.pageYOffset >= sticky) {
+			navbar.classList.add("sticky")
+		  } else {
+			navbar.classList.remove("sticky");
+		  }
+		}
+		</script>
+		
+		<!-- the ende of header and navbar section -->
 	
 	 <!-- Breadcrumb section -->
 	 <div class="site-breadcrumb">
